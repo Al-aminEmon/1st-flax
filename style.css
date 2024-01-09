@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 180px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.background{
+    background-image: url("image/wr.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.icon{
+    text-align: center;
+    padding: 45px 0;
+    color: white;
+}
+
+.icon > span{
+    padding: 10px 12px;
+    background-color: aliceblue;
+    color: #000000;
+    border: 1px solid #ffffff;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 20px 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.img > img{
+    width: 110px;
+    height: 110px;
+}
+
+.text {
+    width: 40%;
+}
+
+.text >h1{
+    font-size: 40px;
+    color: #EB553C;
+    text-transform: uppercase;
+}
+
+.flex > .text,.nav-item{
+    
+    padding: 15px 25px;
+}
+
+.nav-item >ul{
+    text-align: end;
+}
+
+.nav-item li{
+    display: inline;
+    font-size: 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px ;
+}
+
+
+
+
+.background-down{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.background-down h1{
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.background-down p{
+    padding: 20px 0;
+}
+
+.background-down button{
+    margin-bottom: 60px;
+    padding: 10px 12px;
+    font-size: 18px;
+    background-color: #EB553C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+.services{
+    margin: 35px 0;
+}
+
+.service-heading h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.service-heading> p{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-box{
+    padding:  155px;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+
+
+
+.photo{
+    margin-bottom: 60px;
+}
+
+.portfolio h1{
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.portfolio p{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.flex-image{
+    display: flex;
+    justify-content:space-around;
+    margin: 30px 0;
+}
+
+.last-image > img{
+    height: 350px;
+    width: 345px;
+    border:1px solid rgb(207, 207, 207);
+}
+
+
+
+
+
+
+
+
+
+
+.foter-top{
+    background-color: #333333;
+    height: 80px;
+}
+
+
+.foter-background{
+    background-color: #666666;
+}
+
+
+.foter{
+    display: flex;
+    justify-content: center;
+    padding:40px 0;
+    font-family:  'Poppins', sans-serif;
+
+}
+.foter > div{
+    width: 33%;
+
+}
+.company> h1, ul, span{
+    padding: 20px 0;
+}
+.company h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.company li{
+    display: inline;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+.company a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 5px ;
+    border-right: 1px solid rgb(255, 255, 255) ;
+}
+
+.company > span{ 
+    font-size: 20px;   
+}
+
+
+.location > p{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.location >p:last-child{
+    color: #20B0A8;
+}
+.location > p >span{
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+.abouth h3{
+    font-size: 30px;
+    padding: 20px 0;
+    color: white;
+    text-transform: uppercase;
+}
+.abouth p{
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
+
+}
+.abouth span{
+    padding: 10px 15px;
+    background-color: #333333;
+    color: white;
+    margin: 0 5px;
+
+}
